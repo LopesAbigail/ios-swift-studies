@@ -1,0 +1,16 @@
+import UIKit
+
+let total = [12.5, 123, 456, 890]
+
+func receiveArray(myArray: Array<Double>) -> Double{
+    var total: Double = 0
+
+    for number in total{
+        total += number
+    }
+
+    return total
+}
+
+let size = receiveArray(myArray: [12.5, 14.8, 13.6, 8.25])
+print(size)
